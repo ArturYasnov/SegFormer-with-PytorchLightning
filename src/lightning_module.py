@@ -24,24 +24,8 @@ class SegFormerModule(pl.LightningModule):
         self.acc_list_train = []
         self.acc_list_valid = []
 
-        self.id2label = json.load(
-            open(
-                cached_download(
-                    hf_hub_url(
-                        "datasets/huggingface/label-files", "ade20k-id2label.json"
-                    )
-                ),
-                "r",
-            )
-        )
-        self.id2label = {int(k): v for k, v in self.id2label.items()}
-        self.label2id = {v: k for k, v in self.id2label.items()}
-
         self.id2label = {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7}
         self.label2id = {v: k for k, v in self.id2label.items()}
-
-        print(self.id2label)
-        print(self.label2id)
 
         self.model = SegformerForSemanticSegmentation.from_pretrained(
             "nvidia/mit-b0",
