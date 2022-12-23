@@ -1,19 +1,21 @@
 # SegFormer-with-PytorchLightning
 
-In this project, I provide an example of training the SegFormer model for image segmentation using Pytorch Lightning and Albumentations. 
+This project contains an example of training the SegFormer model for image segmentation using Pytorch, Pytorch Lightning 
+and Albumentations. 
 The project includes a Jupyter notebook example of using the trained model for inference, 
-as well as some sample results from the model after 20 epochs of training. We hope that this project serves as a useful resource for those interested in implementing the SegFormer model and using Pytorch Lightning for deep learning tasks.
+as well as some sample results from the model after 20 epochs of training. 
 
-Results of a model trained 10 epochs on 600 images dataset.
+Project based on 
+[NielsRogge SegFormer repo](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/SegFormer/README.md)
+and [huggingface segformer documentation](https://huggingface.co/docs/transformers/model_doc/segformer).
+
+
+
+Results of a model after first 20 epochs of training on 600 images dataset.
 
 Image:
-
-![Image](data/image.jpg)
-
+![Image](data/image1.png)
 Prediction:
-
-![Image](data/pred_mask.jpg)
-
+![Image](data/prediction1.png)
 Mask:
-
-![Image](data/mask.jpg)
+![Image](data/mask1.png)
