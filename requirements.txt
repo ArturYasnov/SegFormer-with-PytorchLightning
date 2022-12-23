@@ -1,0 +1,12 @@
+# pip install -r requirements.txt
+
+numpy==1.23.2
+pandas==1.4.4
+torch>=1.7.0
+torchvision>=0.8.1
+pytorch_lightning>=1.7.4
+scikit-learn>=1.1.2
+torchmetrics==0.7.2
+opencv-python>=4.6.0.66
+albumentations>=1.2.1
+transformers>=4.24.0
