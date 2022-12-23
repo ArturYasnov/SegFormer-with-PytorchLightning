@@ -10,7 +10,7 @@ Project based on
 and [huggingface segformer documentation](https://huggingface.co/docs/transformers/model_doc/segformer).
 
 
-Results of a model after first 20 epochs of training on 600 images dataset.
+An example of model results after the first 20 training epochs on a dataset (contains 600 images).
 
 Image:
 
