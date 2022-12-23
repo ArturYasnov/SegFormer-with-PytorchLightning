@@ -14,8 +14,13 @@ and [huggingface segformer documentation](https://huggingface.co/docs/transforme
 Results of a model after first 20 epochs of training on 600 images dataset.
 
 Image:
+
 ![Image](data/image1.png)
+
 Prediction:
+
 ![Image](data/prediction1.png)
+
 Mask:
+
 ![Image](data/mask1.png)
